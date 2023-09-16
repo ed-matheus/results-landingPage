@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- CSS Responsivity -->
+    <link rel="stylesheet" type="text/css" href="css/responsivity.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- JavaScript e jQuery -->
+    <script src="JS/script.js" defer></script>
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+
+    <div class="page__container d-flex flex-column justify-content-center align-items-center">
+
+      <div class="main__container d-flex">
+
+        <div class="left__container d-flex flex-column align-items-center py-4 px-4">
+          <h5 class="opacity-75">Your Result</h5>
+
+          <div class="circle d-flex flex-column align-items-center justify-content-center mt-4 mb-4 rounded-circle">
+            <h1 class="fw-bold">76</h1> 
+            <span class="opacity-50">of 100</span>
+          </div>
+
+          <h2>Great</h2>
+
+          <p class="opacity-75">
+            You scored higher than 65% of<br> the people who have taken<br> these tests
+          </p>
+        </div>
+
+        <div class="right__container d-flex flex-column align-items-start py-4 px-4">
+          <h5 class="mb-3 fw-bold">Summary</h5>
+
+          <div id="reaction" class="mb-3 center rounded-3 w-100">
+            <img src="" class="me-2" alt="ray icon"></img>
+
+            <div class="w-100 d-flex justify-content-between">
+              <span class="fw-bold category"></span>
+              <span class="text-dark">
+                <span class="mainScore"></span> 
+                <span class="text-secondary fw-bolder">/ 100</span>
+              </span>
+            </div>
+          </div>
+
+          <div id="memory" class="mb-3 center rounded-3 w-100">
+            <img src="" class="me-2"></img>
+
+            <div class="w-100 d-flex justify-content-between">
+              <span class="fw-bold category"></span>
+              <span class="text-dark">
+                <span class="mainScore"></span> 
+                <span class="text-secondary fw-bolder">/ 100</span>
+              </span>
+            </div>
+          </div>
+
+          <div id="verbal" class="mb-3 center rounded-3 w-100">
+            <img src="" class="me-2"></img>
+
+            <div class="w-100 d-flex justify-content-between">
+              <span class="fw-bold category"></span>
+              <span class="text-dark">
+                <span class="mainScore"></span> 
+                <span class="text-secondary fw-bolder">/ 100</span>
+              </span>
+            </div>
+          </div>
+
+          <div id="visual" class="mb-5 center rounded-3 w-100">
+            <img src="" class="me-2"></img>
+
+            <div class="w-100 d-flex justify-content-between">
+              <span class="fw-bold category"></span>
+              <span class="text-dark">
+                <span class="mainScore"></span> 
+                <span class="text-secondary fw-bolder">/ 100</span>
+              </span>
+            </div>
+          </div>
+
+          <button class="w-100 rounded-5">Continue</button>
+
+        </div>
+  
+      </div>
+
+      <div class="attribution py-3">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/ed-matheus" target="_blank">Ed Matheus</a>.
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>
