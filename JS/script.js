@@ -18,13 +18,13 @@ const visualIcon = document.querySelector("#visual img")
 fetch(jsonFile)
     .then(response => response.json())
     .then(data => {
-        console.log(a)
+        console.log(data)
 
         // Categories
         reactionElement.innerHTML = data[0].category
         memoryElement.innerHTML = data[1].category
         verbalElement.innerHTML = data[2].category
-        visualElement.innerHTML = a[3].category
+        visualElement.innerHTML = data[3].category
 
         // Scores
         reactionScore.innerHTML = data[0].score
