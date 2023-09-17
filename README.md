@@ -3,7 +3,7 @@
 
 ## Hello, how's it going?
 
-This is a simple Landing Page project that I built as a challenge.
+This is the deploy version of the challenge project Results Summary, with minified files.
 I got the challenge on the website https://www.frontendmentor.io, that has a lot of FrontEnd challenges available!
 
 This projet was built with basic HTML, CSS and JS, using Bootstrap for styles and Media Queries for a better responsive page, so
