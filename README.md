@@ -1,4 +1,7 @@
-# Hello, how's it going?
+# FrontEnd Mentor Component - Results Summary
+<img src="design/desktop-design.jpg">
+
+## Hello, how's it going?
 
 This is a simple Landing Page project that I built as a challenge.
 I got the challenge on the website https://www.frontendmentor.io, that has a lot of FrontEnd challenges available!
